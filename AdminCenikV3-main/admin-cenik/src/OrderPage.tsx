@@ -559,7 +559,7 @@ export default function OrderPage() {
                                 onClick={() => openVariantDeleteMenuAction(variant.id)}
                               >
                                 <i className="bi bi-trash" aria-hidden />
-                                Smazat objednávku
+                                Smazat nabídku
                               </button>
                             </div>
                           )}
@@ -1130,7 +1130,7 @@ export default function OrderPage() {
             onClick={(e) => e.stopPropagation()}
           >
             <h3 id="delete-variant-modal-title" className="delete-variant-modal-title">
-              Smazat objednávku?
+              Opravdu chcete smazat tuto cenovou nabídku včetně případných nastavených individuálních slev?
             </h3>
             <p className="delete-variant-modal-text">
               Tato objednávka obsahuje poslední položku. Jejím odebráním se smaže celá varianta.
@@ -1148,7 +1148,7 @@ export default function OrderPage() {
                 className="btn delete-variant-modal-confirm"
                 onClick={confirmDeleteVariant}
               >
-                Smazat objednávku
+                Smazat nabídku
               </button>
             </div>
           </div>
