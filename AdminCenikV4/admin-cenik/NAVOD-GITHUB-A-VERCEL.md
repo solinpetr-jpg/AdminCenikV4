@@ -1,6 +1,6 @@
 # 1. Přihlášení na GitHub a push (tvůj osobní účet)
 
-Repozitář **origin** už míří na tvůj osobní GitHub: `solinpetr-jpg/AdminCenikV3`.
+Repozitář **origin** už míří na tvůj osobní GitHub: `solinpetr-jpg/AdminCenikV4`.
 
 ## Krok 1: Přihlášení na GitHub v prohlížeči
 
@@ -16,7 +16,7 @@ Repozitář **origin** už míří na tvůj osobní GitHub: `solinpetr-jpg/Admin
 V terminálu (nebo v Cursoru otevři terminál) v adresáři projektu:
 
 ```bash
-cd "/Users/petr/Documents/GitHub/Cursor Repos/Admin Cenik 3/AdminCenikV3"
+cd "/Users/petr/Documents/GitHub/Cursor Repos/Admin Cenik 4/AdminCenikV4"
 
 # Přidat všechny změny (včetně nových souborů pro Vercel)
 git add -A
@@ -39,7 +39,7 @@ git push -u origin UI-design-+-prototyp-petr
   - **HTTPS:** zadáš své GitHub uživatelské jméno a **Personal Access Token** (ne heslo). Token vytvoříš na GitHubu: **Settings → Developer settings → Personal access tokens → Generate new token** (scope např. `repo`).
   - **SSH:** pokud máš nastavený SSH klíč a remote je jako `git@github.com:...`, přihlášení nebude chtít.
 
-Po úspěšném pushu uvidíš na **https://github.com/solinpetr-jpg/AdminCenikV3** větev **UI-design-+-prototyp-petr** (a v ní i složku `admin-cenik` a nové soubory).
+Po úspěšném pushu uvidíš na **https://github.com/solinpetr-jpg/AdminCenikV4** větev **UI-design-+-prototyp-petr** (a v ní i složku `admin-cenik` a nové soubory).
 
 *(Kdybys chtěl pushovat přímo na `main`, přepni se na `main`, slouč změny a pushni: `git checkout main` → `git merge UI-design-+-prototyp-petr` → `git push -u origin main`.)*
 
@@ -51,7 +51,7 @@ Až je kód na tvém osobním GitHubu:
 
 1. Jdi na **https://vercel.com** a přihlas se (ideálně **Continue with GitHub** – vyber účet **solinpetr-jpg**).
 2. Klikni **Add New…** → **Project**.
-3. V seznamu repozitářů najdi **solinpetr-jpg/AdminCenikV3** a u něj **Import**.
+3. V seznamu repozitářů najdi **solinpetr-jpg/AdminCenikV4** a u něj **Import**.
 4. U projektu nastav **Root Directory** na **`admin-cenik`** (Edit → zadej `admin-cenik`).
 5. Klikni **Deploy**.
 
@@ -59,4 +59,4 @@ Vercel pak nasadí z toho, co je na GitHubu (větve můžeš zvolit v nastavení
 
 ---
 
-**Shrnutí pořadí:** Přihlásit se na GitHub → commit + push na **origin** (solinpetr-jpg/AdminCenikV3) → přihlásit se na Vercel přes GitHub → Import projektu z tohoto repa → Root Directory `admin-cenik` → Deploy.
+**Shrnutí pořadí:** Přihlásit se na GitHub → commit + push na **origin** (solinpetr-jpg/AdminCenikV4) → přihlásit se na Vercel přes GitHub → Import projektu z tohoto repa → Root Directory `admin-cenik` → Deploy.

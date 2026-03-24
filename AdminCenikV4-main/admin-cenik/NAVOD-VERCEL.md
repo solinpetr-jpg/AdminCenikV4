@@ -7,7 +7,7 @@ Až to uděláš, bude mít aplikace vlastní odkaz (např. `https://admin-cenik
 ## 1. Repozitář musí být na GitHubu
 
 - Pokud tento projekt ještě **není** na GitHubu:
-  - Na [github.com](https://github.com) založ nový repozitář (např. `AdminCenikV3`).
+  - Na [github.com](https://github.com) založ nový repozitář (např. `AdminCenikV4`).
   - V terminálu v adresáři projektu (tam, kde je složka `admin-cenik`) spusť:
     - `git remote add origin https://github.com/TVEJMENO/TVUJ-REPO.git` (nahraď TVEJMENO a TVUJ-REPO).
     - `git push -u origin main` (nebo `master`, podle toho, jakou větev máš).
@@ -27,7 +27,7 @@ Až to uděláš, bude mít aplikace vlastní odkaz (např. `https://admin-cenik
 ## 3. Nový projekt z GitHubu
 
 1. Na Vercel po přihlášení klikni na **„Add New…“** (nebo **„New Project“**).
-2. Uvidíš seznam repozitářů z GitHubu. Najdi **AdminCenikV3** (nebo jak se tvůj repo jmenuje) a u něj klikni **„Import“**.
+2. Uvidíš seznam repozitářů z GitHubu. Najdi **AdminCenikV4** (nebo jak se tvůj repo jmenuje) a u něj klikni **„Import“**.
 
 ---
 
@@ -82,7 +82,7 @@ Před načtením projektu se zobrazí přihlašovací stránka s polem pro **př
    - **Environment:** zaškrtni Production (a případně Preview).
 3. Ulož a v **Deployments** spusť **Redeploy**, aby se proměnné zahrnuly do buildu.
 
-Po nasazení se na https://admin-cenik-v3.vercel.app/ nejdřív zobrazí stránka „Pro vstup se přihlaste“ s poli **Přihlašovací jméno** a **Heslo**. Po zadání správných údajů se načte aplikace; přihlášení platí v rámci session (do zavření záložky).
+Po nasazení se na https://admin-cenik-v4.vercel.app/ nejdřív zobrazí stránka „Pro vstup se přihlaste“ s poli **Přihlašovací jméno** a **Heslo**. Po zadání správných údajů se načte aplikace; přihlášení platí v rámci session (do zavření záložky).
 
 - **Jen heslo:** Pokud nastavíš jen `VITE_ACCESS_PASSWORD` (bez `VITE_ACCESS_LOGIN`), kontroluje se pouze heslo; přihlašovací jméno může uživatel nechat prázdné nebo cokoli.
 - **Žádná brána:** Pokud `VITE_ACCESS_PASSWORD` nenastavíš, přihlašovací stránka se nezobrazí (vhodné pro lokální vývoj).
